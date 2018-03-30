@@ -3,13 +3,21 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import $ from 'jquery'
+import Buefy from 'buefy'
+require('fullpage.js/dist/jquery.fullpage.min.js')
 
+// console.log(fullpage)
 Vue.config.productionTip = false
+Vue.use(Buefy)
+
+window.$ = $
+// window.$.fn.fullpage = fullPage
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+    el: '#app',
+    router,
+    components: { App },
+    template: '<App/>'
 })
