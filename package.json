@@ -16,7 +16,7 @@
   "dependencies": {
     "buefy": "^0.6.4",
     "fullpage.js": "^2.9.6",
-    "node-sass": "^4.8.3",
+    "node-sass": "^7.0.0",
     "sass-loader": "^6.0.7",
     "vue": "^2.5.2",
     "vue-fullpage.js": "0.0.1",
